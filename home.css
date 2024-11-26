@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'work sans', sans-serif;
+}
+
+#hero{
+    background-image: url("hometown.jpg");
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#hero #title{
+    color: white;
+    background-color: #457B9D;
+    padding: 20px;
+    max-width: fit-content;
+    font-size: 2.3rem;
+    align-self: center;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero #description{
+    color: white;
+    background-color: #1D3557;
+    margin-top: 80px;
+    font-size: 1.25rem;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 200px;
+}
+
+#title2{
+    text-align: center;
+    color: #1D3557;
+    margin-top: 150px;
+    font-size: 1.625rem;
+}
+
+.wrapper.Olumo{
+    display: flex;
+    flex-direction: column;
+}
+
+.Olumo-img{
+    width: 300px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.centenary-img{
+    width: 300px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.palace-img{
+    width: 300px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.title{
+    color: #457B9D;
+    text-align: center;
+}
+
+.txt{
+    width: 350px;
+    text-align: center;
+    font-weight: 350;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.image-icon{
+    width: 100px;
+}
+
+#title3{
+    text-align: center;
+    color: #457B9D;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.par{
+    width: 300px;
+    text-align: center;
+    font-weight: 350;
+}
+
+.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#active-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.title4{
+    color: #1D3557;
+}
+
+#activities{
+    background-color: #F1FAFE;
+    height: 100vh;
+}
+
+.about1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1d3557;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    background-color: #A8DADC;
+    padding: 20px;
+    border-radius: 7px;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 200px 0;
+    border-bottom: #1D3557 5px solid;
+
+}
+
+.card-img{
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+#aboutme{
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+}
+
+#footer{
+    background-color: #1D3557;
+    color: #FFFFFF;
+    text-align: center;
+    height: 80px;
+}
+
+#footer a{
+    color: inherit;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#foot{
+    padding: 30px;
+}
+
+
